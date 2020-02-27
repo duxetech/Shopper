@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2519184F2407D5660046A91A /* CurrencyTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2519184E2407D5660046A91A /* CurrencyTF.swift */; };
 		25CE7B002407B8AE009FF677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CE7AFF2407B8AE009FF677 /* AppDelegate.swift */; };
 		25CE7B022407B8AE009FF677 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CE7B012407B8AE009FF677 /* SceneDelegate.swift */; };
 		25CE7B042407B8AE009FF677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CE7B032407B8AE009FF677 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2519184E2407D5660046A91A /* CurrencyTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTF.swift; sourceTree = "<group>"; };
 		25CE7AFC2407B8AE009FF677 /* Shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shopper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25CE7AFF2407B8AE009FF677 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25CE7B012407B8AE009FF677 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2519184C2407D0800046A91A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				25CE7B032407B8AE009FF677 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2519184D2407D52F0046A91A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2519184E2407D5660046A91A /* CurrencyTF.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		25CE7AF32407B8AE009FF677 = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +76,10 @@
 		25CE7AFE2407B8AE009FF677 /* Shopper */ = {
 			isa = PBXGroup;
 			children = (
+				2519184D2407D52F0046A91A /* View */,
+				2519184C2407D0800046A91A /* Controller */,
 				25CE7AFF2407B8AE009FF677 /* AppDelegate.swift */,
 				25CE7B012407B8AE009FF677 /* SceneDelegate.swift */,
-				25CE7B032407B8AE009FF677 /* ViewController.swift */,
 				25CE7B052407B8AE009FF677 /* Main.storyboard */,
 				25CE7B132407B9AB009FF677 /* Helper.swift */,
 				25CE7B082407B8B0009FF677 /* Assets.xcassets */,
@@ -141,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2519184F2407D5660046A91A /* CurrencyTF.swift in Sources */,
 				25CE7B042407B8AE009FF677 /* ViewController.swift in Sources */,
 				25CE7B002407B8AE009FF677 /* AppDelegate.swift in Sources */,
 				25CE7B022407B8AE009FF677 /* SceneDelegate.swift in Sources */,
